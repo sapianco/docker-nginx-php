@@ -1,6 +1,6 @@
 FROM nginx:1.21.6-alpine
 
-ENV USER=asesoressura
+ENV USER=sapian
 ENV UID=1001
 ENV GID=1001
 
