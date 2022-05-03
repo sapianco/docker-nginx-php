@@ -1,8 +1,8 @@
 FROM nginx:1.21.6-alpine
 
 ENV USER=asesoressura
-ENV UID=1001
-ENV GID=1001
+ENV UID=1000
+ENV GID=1000
 
 RUN adduser \
     --disabled-password \
