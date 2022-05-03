@@ -11,6 +11,8 @@ RUN adduser \
     --uid "$UID" \
     "$USER"
 
+RUN addgroup asesoressura nginx
+
 RUN chown -R asesoressura:asesoressura /var/cache/nginx && \
         chown -R asesoressura:asesoressura /var/log/nginx && \
         chown -R asesoressura:asesoressura /etc/nginx/conf.d
