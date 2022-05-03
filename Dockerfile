@@ -20,4 +20,4 @@ RUN chown -R asesoressura:asesoressura /var/cache/nginx && \
 RUN touch /var/run/nginx.pid && \
         chown -R asesoressura:asesoressura /var/run/nginx.pid
 
-USER ${USER}
+# USER ${USER}
