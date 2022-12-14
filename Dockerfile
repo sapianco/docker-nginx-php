@@ -1,4 +1,4 @@
-FROM nginx:1.21.6-alpine
+FROM nginx:1.23.3-alpine
 
 ENV USER=sapian
 ENV UID=1001
